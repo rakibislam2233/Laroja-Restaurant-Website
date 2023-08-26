@@ -3,7 +3,7 @@ import Home from './home/page';
 
 const Main = () => {
     return (
-        <div className='bg-[#081622]'>
+        <div className='bg-[#081622] overflow-hidden'>
             <Home></Home>
         </div>
     );

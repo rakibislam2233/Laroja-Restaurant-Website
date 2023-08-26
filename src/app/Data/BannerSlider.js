@@ -2,7 +2,7 @@ const BannerSlider = [
     {
         backgroundImages:"https://i.postimg.cc/BbppsY4t/Banner.jpg",
         images:"https://i.postimg.cc/8Pj2zMfs/Burger.png",
-        title:"ENJOY YOUR FAVORITE FOOD WITH FAMILY"
+        title:"ENJOY YOUR FAVORITE FOOD WITH FAMILY",
     }
     ,
     {

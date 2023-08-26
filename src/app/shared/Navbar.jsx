@@ -52,7 +52,7 @@ const Navbar = () => {
     logOut();
   };
   return (
-    <div className="w-full bg-[#032836] fixed z-10 top-0 left-0 right-0 text-white  md:px-24 lg:px-8">
+    <div className="w-full bg-[#032836] fixed z-10 top-0 left-0 right-0 text-white  md:px-24 lg:px-8  shadow-lg">
       <div className="w-full h-24 relative flex items-center justify-between p-5">
         <Link
           href="/"
