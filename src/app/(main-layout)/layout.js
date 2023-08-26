@@ -4,7 +4,9 @@ const { default: Navbar } = require("../shared/Navbar");
 const MainLayout = ({ children }) => {
   return <>
   <Navbar/>
-  {children}
+ <div className="pt-24">
+ {children}
+ </div>
   <Footer/>
   </>;
 };

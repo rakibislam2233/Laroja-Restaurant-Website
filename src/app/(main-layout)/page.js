@@ -1,9 +1,10 @@
 import React from 'react';
+import Home from './home/page';
 
 const Main = () => {
     return (
-        <div>
-            <h3>This is Main</h3>
+        <div className='bg-[#081622]'>
+            <Home></Home>
         </div>
     );
 };
