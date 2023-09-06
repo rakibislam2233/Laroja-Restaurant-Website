@@ -60,9 +60,9 @@ const Banner = () => {
                 backgroundRepeat: "no-repeat",
                 backgroundBlendMode: "multiply",
               }}
-              className={`bg-[#032836] bg-opacity-40 w-full h-screen cursor-pointer`}
+              className={`bg-[#032836] bg-opacity-40 w-full  cursor-pointer py-8 md:py-12`}
             >
-              <div className="w-full max-w-6xl mx-auto h-full flex flex-col  md:flex-row gap-10  items-center p-10 md:p-5">
+              <div className="w-full max-w-6xl mx-auto flex flex-col  md:flex-row gap-5  items-center p-10 md:p-5">
                 <div className="w-full md:w-1/2 space-y-5">
                   <h3 className="text-2xl  text-zinc-300 font-medium">
                     Welcome to Laroja
@@ -75,16 +75,18 @@ const Banner = () => {
                   </h2>
                   <div>
                     <Link href={"/"}>
-                      <button className="flex gap-0.5 py-3 px-8 rounded-full bg-gradient-to-r from-rose-500 to-orange-500  text-white">
-                        Explore Menu
-                        <BsArrowRightShort className="w-6 h-6" />
-                      </button>
+                    <button className="group flex gap-0.5 py-2.5 px-8 rounded-full bg-gradient-to-r from-rose-500 to-orange-500 duration-500 transition-all   text-white">
+                      <span className="group-hover:translate-x-3 duration-500">
+                       Explore Menu
+                      </span>
+                      <BsArrowRightShort className="w-6 h-6 group-hover:translate-x-3 duration-500" />
+                    </button>
                     </Link>
                   </div>
                 </div>
                 <div className={`w-full md:w-1/2 `}>
                   <Lottie
-                    className="w-full"
+                    className="w-full h-96"
                     animationData={animations}
                     loop={true}
                   />
@@ -101,9 +103,9 @@ const Banner = () => {
                 backgroundRepeat: "no-repeat",
                 backgroundBlendMode: "multiply",
               }}
-              className={`bg-[#032836] bg-opacity-40 w-full h-screen cursor-pointer`}
+              className={`bg-[#032836] bg-opacity-40 w-full  cursor-pointer py-8 md:py-12`}
             >
-              <div className="w-full max-w-6xl mx-auto h-full flex flex-col  md:flex-row gap-10  items-center p-10 md:p-5">
+              <div className="w-full max-w-6xl mx-auto  flex flex-col  md:flex-row gap-5  items-center p-10 md:p-5">
                 <div className="w-full md:w-1/2 space-y-5">
                   <h3 className="text-2xl  text-zinc-300 font-medium">
                     Welcome to Laroja
@@ -125,7 +127,7 @@ const Banner = () => {
                 </div>
                 <div className={`w-full md:w-1/2 `}>
                   <Lottie
-                    className="w-full"
+                    className="w-full h-96"
                     animationData={animations2}
                     loop={true}
                   />
@@ -142,9 +144,9 @@ const Banner = () => {
                 backgroundRepeat: "no-repeat",
                 backgroundBlendMode: "multiply",
               }}
-              className={`bg-[#032836] bg-opacity-40 w-full h-screen cursor-pointer`}
+              className={`bg-[#032836] bg-opacity-40 w-full  cursor-pointer py-8 md:py-12`}
             >
-              <div className="w-full max-w-6xl mx-auto h-full flex flex-col  md:flex-row gap-10  items-center p-10 md:p-5">
+              <div className="w-full max-w-6xl mx-auto  flex flex-col  md:flex-row gap-5  items-center p-10 md:p-5">
                 <div className="w-full md:w-1/2 space-y-5">
                   <h3 className="text-2xl  text-zinc-300 font-medium">
                     Welcome to Laroja
@@ -166,7 +168,7 @@ const Banner = () => {
                 </div>
                 <div className={`w-full md:w-1/2 `}>
                   <Lottie
-                    className="w-full"
+                    className="w-full h-96"
                     animationData={animations3}
                     loop={true}
                   />
